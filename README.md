@@ -23,7 +23,7 @@
     * [AutoCAD]()
     * [Solidworks]()
     * [Onshape]()
-* Manufacture 製造
+* [Manufacture 製造](Manufacture/README.md)
     * [3D Printing 3D列印]()
     * [Laser Cutting 雷射切割]()
     * [Lathe 車床]()
