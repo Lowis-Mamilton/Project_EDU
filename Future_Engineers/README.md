@@ -4,7 +4,7 @@
 * [Examples from previous 往年範例](#examples-from-previous-往年範例)
 * [Examples from other conutries 其他國家範例](#examples-from-other-conutries-其他國家範例)
 * [Field Diagram](../doc/WRO-2023_FutureEngineers_Playfield.pdf)
-* [Secret Link]()
+* [Private Ver.](https://github.com/Lowis-Mamilton/2024-WRO)
 
 ## About Rules 關於規則
 * Chinese Rules from Taiwan National Competition.
