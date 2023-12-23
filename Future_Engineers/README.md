@@ -17,5 +17,5 @@
 * [2023 WRO National Champion of Future Engineers.(Have-No-N2)](https://github.com/kirkhu/WRO2023_Future-Engineers-Have-No-N2.git)
 
 ## Examples from other conutries 其他國家範例
-* [2023 WRO TJ ](https://github.com/Lowis-Mamilton/2023WROFE_TJ_copy.git)
+* [2023 WRO TJ ](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 * [2023 Team USA 美國隊](https://github.com/spsquared/SPARK_Future-Engineers_2023.git)
