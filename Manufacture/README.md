@@ -4,8 +4,7 @@
     * FDM
     * LCD
 * [Laser Cutting 雷射切割]()
-* [Lathe 車床]()
-* [Milling machine 銑床]()
+
 
 ## 3D Printing 3D列印
 * Comparison between __FDM__ and __LCD__ 3D printers.
@@ -37,3 +36,5 @@
 
 ### LCD
 1. LCD光固化3D列印機
+
+## Laser Cutting 雷射切割

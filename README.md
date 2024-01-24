@@ -23,16 +23,14 @@
     * [Solidworks]()
     * [Onshape]()
 * [Manufacture 製造](Manufacture/README.md)
-    * [3D Printing 3D列印]()
+    * [3D Printing 3D列印](Manufacture/README.md#3d-printing-3d列印)
     * [Laser Cutting 雷射切割]()
-    * [Lathe 車床]()
-    * [Milling machine 銑床]()
 * Website 網頁
     * [HTML /CSS /Javascript]()
     * [Vue 框架]()
     * [Example 範例](https://lowis-mamilton.github.io/8173barry.github.io/?fbclid=IwAR0m0clUGdEg9L-o-sSaLdlOSx5DryyZBGnf1D_82TcWAr4FQ0L2p7DnY-4)
 * [OpenMV](OpenMV/README.md)
-    * Setup
+    * [Setup](OpenMV/README.md#setup)
     * ROI 感興趣區域
     * UART Communication UART通信
     * [Example Code 範例程式](OpenMV/Code/README.md)
