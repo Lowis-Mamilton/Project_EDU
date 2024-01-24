@@ -16,7 +16,6 @@
     * [Basic program syntax 基本程式語法]()
     * [Function and Class 函數和物件導向]()
 * Linux System (Jetson & Raspberry Pi)
-    * [History 發展史]()
     * [Setup 設定]()
     * [Basic code 基本代碼應用]()
 * 2D/3D CAD
@@ -32,7 +31,14 @@
     * [HTML /CSS /Javascript]()
     * [Vue 框架]()
     * [Example 範例](https://lowis-mamilton.github.io/8173barry.github.io/?fbclid=IwAR0m0clUGdEg9L-o-sSaLdlOSx5DryyZBGnf1D_82TcWAr4FQ0L2p7DnY-4)
+* [OpenMV](OpenMV/README.md)
+    * Setup
+    * ROI 感興趣區域
+    * UART Communication UART通信
+    * [Example Code 範例程式](OpenMV/Code/README.md)
 
 ---
 ### Info Source:
 https://wro-association.org/competition/2023-season/
+https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
+
