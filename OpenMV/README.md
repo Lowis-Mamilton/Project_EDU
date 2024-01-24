@@ -3,7 +3,7 @@
 * Setup
 * ROI 感興趣區域
 * UART Communication UART通信
-* [Example Code](../OpenMV/Code/README.md)
+* [Example Code](../OpenMV/Code)
 
 
 ## Setup

@@ -33,7 +33,7 @@
     * [Setup](OpenMV/README.md#setup)
     * ROI 感興趣區域
     * UART Communication UART通信
-    * [Example Code 範例程式](OpenMV/Code/README.md)
+    * [Example Code 範例程式](OpenMV/Code)
 
 ---
 ### Info Source:
