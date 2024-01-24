@@ -13,6 +13,6 @@
 graph LR
 A(Download IDE) --> B(Connect to Cam)
 B --> C(Test)
-C --> |Y| [Finish]
+C --> |Y| D[Finish]
 ```
 
