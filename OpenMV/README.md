@@ -23,3 +23,11 @@ C --> |Y| D[Finish]
 ## ROI 感興趣區域
 
 ## UART Communication UART通信
+* Put "[matrix_mini.py](../OpenMV/Code/matrix_mini.py)" in the camera.
+* Matrix Mini example code. [check here](../OpenMV/Code/MARC.ino)
+* If you want to use OpenMV cam send data to Matrix Mini, you can use this code.
+
+```
+#include "SmartCamReader.h"
+float SmartCamReader(data);
+```
