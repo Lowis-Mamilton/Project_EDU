@@ -21,4 +21,5 @@ C --> |Y| D[Finish]
 ## ROI 感興趣區域
 
 ## UART Communication UART通信
-* `Step1` :Download OpenMV IDE, visit OpenMV official website.
+* `Step1` :Install OpenMV IDE, visit OpenMV official website, download and install IDE.
+* `Step2` :Use cable connect Camera to Computor.
