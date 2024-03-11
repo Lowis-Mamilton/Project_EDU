@@ -1,12 +1,14 @@
-# OpenMV
+# [OpenMV](https://openmv.io/)
 
-* Setup
-* ROI 感興趣區域
-* UART Communication UART通信
+* [Setup 前置設定](../OpenMV/README.md#setup-前置設定)
+* [Initialization 初始化](../OpenMV/README.md#initialization-初始化)
+* [ROI 感興趣區域](../OpenMV/README.md#roi-感興趣區域)
+* [UART Communication UART通信](../OpenMV/README.md#uart-communication-uart通信)
 * [Example Code](../OpenMV/Code)
+* [Learn more](https://book.openmv.cc/)
 
 
-## Setup
+## Setup 前置設定
 
 * Flowchart
 ```mermaid
@@ -20,7 +22,27 @@ C --> |Y| D[Finish]
 * `Step2` :Use cable connect camera to computor.
 * `Step3` :Run simple code within the camera.
 
+## Initialization 初始化
+```
+sensor.reset()
+sensor.set_pixformat(sensor.RGB565)
+sensor.set_framesize(sensor.QVGA) # 320*180
+sensor.skip_frames(time = 2000) # Delay
+
+#Turn off automatic white balance
+sensor.set_auto_whitebal(False)
+
+#Flip the frame horizontally
+sensor.set_hmirror(True)
+
+#Flip the frame vertically
+sensor.set_vflip(True)
+```
+
+
 ## ROI 感興趣區域
+A region of interest (often abbreviated ROI) is a sample within a data set identified for a particular purpose. The concept of an ROI is commonly used in many application areas. For example, in medical imaging, the boundaries of a tumor may be defined on an image or in a volume, for the purpose of measuring its size.
+
 
 ## UART Communication UART通信
 * Put "[matrix_mini.py](../OpenMV/Code/matrix_mini.py)" in the camera.
