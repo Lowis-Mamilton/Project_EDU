@@ -1,5 +1,5 @@
 #include "SmartCamReader.h"
-#include <MatrixMini.h>
+#include "MatrixMini.h"
 
 unsigned int data[20];
 unsigned int color, cX, cY, Area;
@@ -26,14 +26,14 @@ void loop() {
     cY = data[2];
     Area = data[3];
 
-    if (color == 1 | color == 2){
-      error = (cX - 160)*0.5;
-      Mini.M1.set(-50 - error);
-      Mini.M2.set(50 - error);
-    } else {
-      Mini.RGB1.setRGB(0, 255, 0 );
-      Mini.M1.set(0);
-      Mini.M2.set(0);
-    }
+    Serial.print("Color:");
+    Serial.print(color);
+    Serial.print(", X:");
+    Serial.print(cX);
+    Serial.print(", Y:");
+    Serial.print(cY);
+    Serial.print(", Area:");
+    Serial.print(Area);
+
   }
 }

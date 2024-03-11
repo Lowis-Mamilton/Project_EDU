@@ -25,9 +25,16 @@ C --> |Y| D[Finish]
 ## UART Communication UART通信
 * Put "[matrix_mini.py](../OpenMV/Code/matrix_mini.py)" in the camera.
 * Matrix Mini example code. [check here](../OpenMV/Code/MARC.ino)
-* If you want to use OpenMV cam send data to Matrix Mini, you can use this code.
+* If you want to use OpenMV cam to send data to Matrix Mini, you should move the [`SmartCamReader.cpp`](../OpenMV/Code/SmartCamReader.cpp) and [`SmartCamReader.h`](../OpenMV/Code/SmartCamReader.h) to your Arduino program files folder together, you can use this code.
 
 ```
 #include "SmartCamReader.h"
+
+unsigned int data[20];
 float SmartCamReader(data);
+
+color = data[0]; // 1 = red, 2 = blue
+cX = data[1]; // Centre X coordinate of the blob
+cY = data[2]; // Centre Y coordinate of the blob
+Area = data[3]; // Area of the blob
 ```
